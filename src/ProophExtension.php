@@ -42,7 +42,6 @@ class ProophExtension extends CompilerExtension
 	 */
 	private function registerContainerWrapper(): void
 	{
-		/** @var ContainerBuilder $containerBuilder */
 		$containerBuilder = $this->getContainerBuilder();
 
 		if (!$containerBuilder->getByType(NetteContainerWrapper::class)) {
